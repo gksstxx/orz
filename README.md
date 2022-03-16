@@ -19,9 +19,7 @@ Overview
 |              項目               |                       概要                        |                ドキュメントリンク                 |
 | ------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
 | インフラ管理 (構築)             | [Terraform](https://www.terraform.io/)            | [Documentation - Terraform by HashiCorp][]        |
-| インフラ管理 (テスト)           | [awspec](https://github.com/k1LoW/awspec)         | [k1LoW/awspec/doc/resource_types.md][]            |
-| 構成管理 (構築)                 | [Ansible](https://www.ansible.com/)               | [Ansible Documentation — Ansible Documentation][] |
-| Docker レジストリ               | [DockerHub](https://hub.docker.com/)              | [Overview of Docker Hub][]                        |
+| インフラ管理 (テスト)           | [codebuild]   | [k1LoW/awspec/doc/resource_types.md][]            |
 
 
 ### Requirements
