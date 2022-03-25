@@ -16,10 +16,10 @@ Overview
 ### Architecture
 
 
-|              項目               |                       概要                        |                ドキュメントリンク                 |
-| ------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
-| インフラ管理 (構築)             | [Terraform](https://www.terraform.io/)            | [Documentation - Terraform by HashiCorp][]        |
-| インフラ管理 (テスト)           | [codebuild]   | [k1LoW/awspec/doc/resource_types.md][]            |
+|              項目               |                       概要                         |                ドキュメントリンク                 |
+| ------------------------------- | ------------------------------------------------- | --------------------------------------------- - |
+| インフラ管理 (構築)              | [Terraform](https://www.terraform.io/)             | [Documentation - Terraform by HashiCorp][]      |
+| インフラ管理 (テスト)            | [codebuild]   | [k1LoW/awspec/doc/resource_types.md][]                                               |
 
 
 ### Requirements
