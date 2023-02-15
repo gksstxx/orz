@@ -17,4 +17,9 @@ jobs:
         inlineScript: |
           pushd ./sidecar/scripts/
           type test.ps1 >> test.ps1
+          popd
         azPSVersion: "latest"
+        
+    - name: logout
+      run: |
+       az logout
