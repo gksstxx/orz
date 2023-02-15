@@ -24,12 +24,19 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      - name: Display the path
-        run: |
-         cat ./sidecar/scripts/test.ps1 >> test.ps1
-         pwd
-         ls -a
-         cat test.ps1
-        shell: bash
+      - name: powershell
+        uses: azure/powershell@1
+        with:
+         inlineScript: |
+              popd
+              
+         
+       
+      ## Runs a single command using the runners shell
+     # - name: Display the path
+      #  run: |
+       #  cat ./sidecar/scripts/test.ps1 >> ./test.ps1
+       #  pwd
+       #  ls -a
+       #  cat test.ps1
+       # shell: bash
