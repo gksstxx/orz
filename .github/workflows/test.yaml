@@ -28,4 +28,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Display the path
         run: cat ./sidecar/scripts/test.ps1 >> test.ps1
+            pwd
         shell: bash
