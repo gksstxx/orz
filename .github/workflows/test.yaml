@@ -29,7 +29,7 @@ jobs:
         with:
          inlineScript: |
               pwd
-              pushd ./scripts
+              pushd ./home/runner/work/orz/orz
          azPSversion: "latest"
               
          
